@@ -31,10 +31,14 @@ Other examples can be found [here](https://brtchip.com/software-examples/ft90x-e
 
 ## Eclipse IDE Installation
 
-To install the optional Eclipse IDE with pre-installer plugins for the FT9xx toolchain:
+To install the optional Eclipse plugin for the FT9xx toolchain:
+- select "Install New Software..." in an existing installation of Eclipse with C/C++ Development Tooling - [Eclipse CDT](https://projects.eclipse.org/projects/tools.cdt).
+- add an "update site" as the following location:
 ```
-sudo dpkg -i ft9xxeclipse_2.7.6_amd64.deb
+/var/opt/ft9xxtoolchain/2.7.6/Eclipse plugins
 ```
+- follow the Eclipse plugin installation process to install the BridgeTek plugin.
+
 The Eclipse IDE itself will provide a comprehensive design environment including a project explorer, colour coded text editor and additional error and warning windows. Compilations and deployment of project code to the target hardware may all be handled within the IDE.
 
 ## Visual Studio Code Support
