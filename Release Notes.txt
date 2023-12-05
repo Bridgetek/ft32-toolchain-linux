@@ -1,13 +1,9 @@
 Release Information
 =================== 
   
-This is Release 2.7.6 of the FT9xx Toolchain for Windows, comprising the command-line tools (GCC, GNU Binutils, GDB), the Eclipse IDE and the hardware library needed to start development. 
+This is Release 2.7.6 of the FT9xx Toolchain, comprising the customized GNU cross-compiler collection(GCC, Binutils, GDB etc), the plugin of Eclipse IDE, the hardware library as well as a set of examples demonstrating how to use the hardware library. 
 
-A set of examples are included to demonstrate how to use the hardware library. 
-
-Projects can be created with the Bridgetek Eclipse plugin or may be compiled using a Makefile. Therefore, the latest version of some necessary GnuWin32 utilities (make and coreutils) are also included.
-
-The cross-compiler toolchain contains support for the FT9xx series of Microcontrollers.
+It supports all the FT9xx series microcontrollers from Bridgetek.
 
 
 Revision Information 
@@ -39,12 +35,9 @@ GNU Coreutils
 -------------
 Version: 5.3.0
 
-Eclipse IDE for C/C++ Developers
+Bridgetek FT9xx Plugin for Eclipse IDE (C/C++ Developers)
 --------------------------------
-Version: 2023-09
-For C/C++ Developers with Bridgetek Plugins.
-Eclipse C/C++ Development Tooling (CDT) 11.3.0
-Bridgetek FT9xx Plugin - 2.7.0
+Version: 2.7.0
 
 FT9xx Programming Utility
 -------------------------
@@ -82,10 +75,10 @@ Known issues:
 - On Windows the cross-compiler tools are 32-bit executables. There are no issues running 32-bit tools from the 64-bit Eclipse application. Utilities included such as FT9xxProg and FT9xxProgGUI are 64-bit tools.
 - TheFT9xxProg utility may trigger virus scanners since it can be connected to through a network port. If this happens then instruct the virus scanner or firewall to open port 3333 for access by the affected applications.
 
-Fixed issues:
+Improvements:
 - A faster versions of the FT9xxProg utility is included in this release. The Windows version FT9xxProgGUI has been updated with new logos and icons.
 
-Feature requests:
+New Features:
 - N/A
 
 
@@ -110,7 +103,7 @@ Fixed issues:
 - Issue with USB host transfers recovering from a timeout has been corrected.
 - Issue with USB host resetting USB 1.1 full-speed hubs fixed.
 
-Feature requests:  
+New Features:  
 - N/A
 
 
